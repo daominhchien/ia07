@@ -2,7 +2,7 @@
 const delay = (ms) => new Promise(resolve => setTimeout(resolve, ms));
 
 const mockUsers = [
-  { email: 'demo@example.com', password: 'password1234', name: 'Demo User', role: 'user' },
+  { email: 'demo@example.com', password: 'password123', name: 'Demo User', role: 'user' },
   { email: 'admin@example.com', password: 'admin123', name: 'Admin User', role: 'admin' }
 ];
 
